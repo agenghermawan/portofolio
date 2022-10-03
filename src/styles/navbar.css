@@ -1,0 +1,11 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(100, 255, 218);
+}
+
+
+li{
+    display: inline-block;
+    padding: 0 0 0 40px;
+    font-size: 13px;
+}
