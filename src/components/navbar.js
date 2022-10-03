@@ -9,25 +9,27 @@ export default function Navbar() {
           <h1>
             Portofolio
           </h1>
-         <ul>
-          <li>
-            About Me 
-          </li>
-          <li>
-            Experience
-          </li>
-          <li>
-            Projects 
-          </li>
-          <li>
-            Contact Me 
-          </li>
-          <li>
-            <button type='button' className='p-1 outline outline-offset-2 outline-blue-400 rounded-md'>
-              Resume 
-            </button>
-          </li>
-         </ul>
+        <div className='list'>
+            <ul>
+              <li>
+                About Me 
+              </li>
+              <li>
+                Experience
+              </li>
+              <li>
+                Projects 
+              </li>
+              <li>
+                Contact Me 
+              </li>
+              <li>
+                <button type='button' className='p-1 outline outline-offset-2 outline-blue-400 rounded-md'>
+                  Resume 
+                </button>
+              </li>
+            </ul>
+         </div>
         </div>
       </div>
     </>
