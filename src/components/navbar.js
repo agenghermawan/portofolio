@@ -6,13 +6,23 @@ export default function Navbar() {
     <>
       <div className="mx-auto hero container">
         <div className="flex justify-between py-5">
-          <h1>Portofolio</h1>
+          <div className="">
+            <h1>Portofolio</h1>
+          </div>
           <div className="list">
             <ul>
-              <li>01. About Me</li>
-              <li>02. Experience</li>
-              <li>03. Projects</li>
-              <li>04. Contact </li>
+              <li>
+                <a href="#about-me"> 01. About Me </a>
+              </li>
+              <li>
+                <a href="#experience">02. Experience </a>
+              </li>
+              <li>
+                <a href="#projects"> 03. Projects </a>
+              </li>
+              <li>
+                <a href="#contact"> 04. Contact</a>
+              </li>
               <li>
                 <button
                   type="button"

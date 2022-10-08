@@ -3,7 +3,10 @@ import "../styles/experience.css";
 
 export default function Experience() {
   return (
-    <div className="container mx-auto mt-40 grid justify-center w-2/4">
+    <div
+      className="container mx-auto mt-32 grid justify-center w-2/4"
+      id="experience"
+    >
       <div className="title">
         <h3 className="text-3xl font-semibold flex">
           <span className="title-about__number"> 02. </span> Where I've Worked

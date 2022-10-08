@@ -3,7 +3,10 @@ import "../styles/about-me.css";
 
 export default function AboutMe() {
   return (
-    <div className="container mx-auto mt-44 w-2/4 justify-center grid">
+    <div
+      className="container mx-auto mt-32 w-2/4 justify-center grid"
+      id="about-me"
+    >
       <div className="title">
         <h3 className="text-3xl font-semibold flex">
           <span className="title-about__number"> 01. </span> About Me{" "}
