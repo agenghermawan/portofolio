@@ -28,15 +28,9 @@ export default function Projects() {
       tools: ["PHP", "Laravel", "Bootstrap", "MySQL"],
     },
     {
-      title: "PGHNAI Sumatera Selatan ",
+      title: "Sehatku App",
       desc: "Workshop and Symposium Website for Optimizing Referrals in Child Cases by Prioritizing Good Communication Competence",
-      image: "./images/pkbidai.png",
-      tools: ["PHP", "Laravel", "Bootstrap", "MySQL"],
-    },
-    {
-      title: "PGHNAI Sumatera Selatan ",
-      desc: "Workshop and Symposium Website for Optimizing Referrals in Child Cases by Prioritizing Good Communication Competence",
-      image: "./images/pkbidai.png",
+      image: "./images/janjidokter.png",
       tools: ["PHP", "Laravel", "Bootstrap", "MySQL"],
     },
   ];
