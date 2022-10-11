@@ -1,14 +1,13 @@
 import React from "react";
 import "../styles/about-me.css";
+import Image from "../atoms/image";
+import List from "../atoms/list";
 
 export default function AboutMe() {
   return (
     <div
       className="container mx-auto mt-44 w-2/4 justify-center grid"
       id="about-me"
-      // data-aos="zoom-in"
-      // data-aos-easing="linear"
-      // data-aos-duration="800"
     >
       <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
         <div className="title">
@@ -34,31 +33,25 @@ export default function AboutMe() {
             <div className="grid grid-cols-2 list-skills">
               <div>
                 <ul className="list-square list-inside">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>PHP</li>
-                  <li>Java Script</li>
-                  <li>PHP</li>
+                  <List> HTML </List>
+                  <List> CSS </List>
+                  <List> PHP </List>
+                  <List> JavaScript </List>
                 </ul>
               </div>
               <div>
                 <ul className="list-square list-inside">
-                  <li>Tailwind Css</li>
-                  <li>Laravel</li>
-                  <li>Bootstrap</li>
-                  <li>React Js</li>
-                  <li>Flutter</li>
+                  <List> Tailwind CSS </List>
+                  <List> Laravel </List>
+                  <List> Bootstrap </List>
+                  <List> React Js </List>
+                  <List> Flutter </List>
                 </ul>
               </div>
             </div>
           </div>
           <div className="flex justify-center h-64">
-            <img
-              src="images/foto.jpeg"
-              alt=""
-              className="bg-cover drop-shadow-2xl rounded-md"
-              height={300}
-            />
+            <Image src={"images/foto.jpeg"} height={300} />
           </div>
         </div>
       </div>

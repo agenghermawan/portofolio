@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="mx-auto hero container">
         <div className="flex justify-between py-5">
           <div className="">
-            <h1>Portofolio</h1>
+            <h1>AH</h1>
           </div>
           <div className="list">
             <ul>
