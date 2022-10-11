@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../atoms/button";
+import List from "../atoms/list";
 import "../styles/navbar.css";
 
 export default function Navbar() {
@@ -11,26 +13,13 @@ export default function Navbar() {
           </div>
           <div className="list">
             <ul>
-              <li>
-                <a href="#about-me"> 01. About Me </a>
-              </li>
-              <li>
-                <a href="#experience">02. Experience </a>
-              </li>
-              <li>
-                <a href="#projects"> 03. Projects </a>
-              </li>
-              <li>
-                <a href="#contact"> 04. Contact</a>
-              </li>
-              <li>
-                <button
-                  type="button"
-                  className="p-1 outline outline-offset-2 outline-blue-400 rounded-md"
-                >
-                  Resume
-                </button>
-              </li>
+              <List href={"#about-me"}> 01. About Me</List>
+              <List href={"#experience"}> 02. Experience</List>
+              <List href={"#projects"}> 03. Projects</List>
+              <List href={"#contact"}> 04. Contact</List>
+              <List>
+                <Button text={"Resume"} onClick={() => console.log("button")} />
+              </List>
             </ul>
           </div>
         </div>

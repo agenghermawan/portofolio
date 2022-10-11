@@ -6,6 +6,9 @@ export default function ContactMe() {
     <div
       className="mx-auto container w-2/4 grid justify-center mt-24"
       id="contact"
+      data-aos="fade-down-right"
+      data-aos-easing="linear"
+      data-aos-duration="500"
     >
       <div className="title">
         <h3 className="text-3xl font-semibold flex">

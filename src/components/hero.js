@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/hero.css";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
@@ -8,21 +9,22 @@ export default function Hero() {
         Hello World! My name is
       </h5>
       <h1 className="text-name text-7xl mt-5 leading-relaxed">
-        Ageng Hermawan <br />
+        <Typewriter
+          words={["Ageng Hermawan"]}
+          loop={10}
+          cursor
+          cursorStyle="_"
+          typeSpeed={70}
+          deleteSpeed={100}
+          delaySpeed={2000}
+        />
+        <br />
         <span className="sub-text-name"> I love exploring new things! </span>
       </h1>
       <div className="desc w-6/12 gap-5 grid">
         <p className="mt-5 text-justify">
-          I'm an Indonesia based software developer with a goal-driven creative
+          I'm an Indonesia based website developer with a goal - driven creative
           mindset and passion for learning and innovating. <br />
-        </p>
-        <p className="text-justify">
-          Currently working as a Software Developer at Amdocs and as a Freelance
-          Content Writer for Pepper Content.
-        </p>
-        <p className="text-justify">
-          Outside work, I occasionally blog on Medium. Off-screen, I sketch my
-          thoughts here!
         </p>
       </div>
 
