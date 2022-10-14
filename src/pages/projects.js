@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Decision Support System ",
       desc: "Website Decision Support System for a company in hiring and considering permanent employees",
-      image: "./images/DSS.png",
+      image: "./images/Hrservice.png",
       tools: ["PHP", "Laravel", "Bootstrap", "Jquery", "MySQL"],
     },
     {
@@ -31,6 +31,18 @@ export default function Projects() {
       title: "Sehatku App",
       desc: "Workshop and Symposium Website for Optimizing Referrals in Child Cases by Prioritizing Good Communication Competence",
       image: "./images/janjidokter.png",
+      tools: ["PHP", "Laravel", "Bootstrap", "MySQL"],
+    },
+    {
+      title: "Tssabes App",
+      desc: "Workshop and Symposium Website for Optimizing Referrals in Child Cases by Prioritizing Good Communication Competence",
+      image: "./images/tssabespicture.png",
+      tools: ["PHP", "Laravel", "Bootstrap", "MySQL"],
+    },
+    {
+      title: "Villa App",
+      desc: "Workshop and Symposium Website for Optimizing Referrals in Child Cases by Prioritizing Good Communication Competence",
+      image: "./images/villa.png",
       tools: ["PHP", "Laravel", "Bootstrap", "MySQL"],
     },
   ];

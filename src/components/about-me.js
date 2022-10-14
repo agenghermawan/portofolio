@@ -6,13 +6,13 @@ import List from "../atoms/list";
 export default function AboutMe() {
   return (
     <div
-      className="container mx-auto mt-44 w-2/4 justify-center grid"
+      className="mx-auto hero container w-10/12 md:w-2/4 justify-center grid"
       id="about-me"
     >
       <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
         <div className="title">
-          <h3 className="text-3xl font-semibold flex">
-            <span className="title-about__number"> 01. </span> About Me{" "}
+          <h3 className="md:text-3xl text-xl font-semibold flex">
+            <span className="title-about__number "> 01. </span> About Me{" "}
             <span className="strip"> </span>
           </h3>
         </div>

@@ -29,7 +29,7 @@ export default function Experience() {
 
   return (
     <div
-      className="container mx-auto mt-32 grid justify-center w-2/4"
+      className="container mx-auto mt-32 md:w-24 w-10/12 grid justify-center"
       id="experience"
     >
       <div

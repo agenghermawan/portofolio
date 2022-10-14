@@ -4,7 +4,7 @@ import "../styles/contact-me.css";
 export default function ContactMe() {
   return (
     <div
-      className="mx-auto container w-2/4 grid justify-center mt-24"
+      className="mx-auto container w-10/12 md:w-2/4 grid justify-center mt-24"
       id="contact"
       data-aos="fade-down-right"
       data-aos-easing="linear"
