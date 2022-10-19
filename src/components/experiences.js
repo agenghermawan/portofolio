@@ -29,7 +29,7 @@ export default function Experience() {
 
   return (
     <div
-      className="container mx-auto mt-32 md:w-24 w-10/12 grid justify-center"
+      className="container mx-auto mt-32 md:w-3/4 xl:w-2/4 w-10/12 grid justify-center"
       id="experience"
     >
       <div
@@ -38,7 +38,7 @@ export default function Experience() {
         data-aos-duration="1000"
       >
         <div className="title">
-          <h3 className="text-3xl font-semibold flex">
+          <h3 className="md:text-3xl text-xl font-semibold flex">
             <span className="title-about__number"> 02. </span> Where I've Worked
             <span className="strip"> </span>
           </h3>

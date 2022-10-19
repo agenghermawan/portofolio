@@ -6,7 +6,7 @@ export default function Image(props) {
     <img
       src={src}
       alt={alt}
-      className="bg-cover drop-shadow-2xl rounded-md"
+      className="drop-shadow-2xl rounded-md object-cover"
       height={height}
       width={width}
     />

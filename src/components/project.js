@@ -5,11 +5,11 @@ import "../styles/project.css";
 export default function Project() {
   return (
     <div
-      className="container mx-auto grid justify-center mt-32 w-10/12 md:w-2/4"
+      className="container mx-auto grid justify-center mt-32 w-10/12 xl:w-2/4 md:w-3/4"
       id="projects"
     >
       <div className="title">
-        <h3 className="text-3xl font-semibold flex">
+        <h3 className="md:text-3xl text-xl font-semibold flex">
           <span className="title-about__number"> 03. </span> Some Things I've
           Built
           <span className="strip"> </span>
@@ -41,7 +41,7 @@ export default function Project() {
             src="./images/Hrservice.png"
             alt=""
             width={470}
-            className="bg-cover"
+            className="w-full object-cover"
           />
         </div>
       </div>
@@ -53,7 +53,12 @@ export default function Project() {
         data-aos-duration="800"
       >
         <div className="grid grid-flow-row gap-3">
-          <img src="./images/pghnai.png" alt="" width={470} height={370} />
+          <img
+            src="./images/pghnai.png"
+            alt=""
+            width={470}
+            className="w-full object-cover"
+          />
         </div>
         <div className="grid grid-flow-row gap-3">
           <h5 className="project_title">Featured Project</h5>
@@ -96,7 +101,7 @@ export default function Project() {
             src="./images/hellokitchen.png"
             alt=""
             width={470}
-            className="bg-cover"
+            className="w-full object-cover"
           />
         </div>
       </div>
@@ -108,7 +113,12 @@ export default function Project() {
         data-aos-duration="400"
       >
         <div className="grid grid-flow-row gap-3">
-          <img src="./images/pkbidai.png" alt="" width={470} height={370} />
+          <img
+            src="./images/pkbidai.png"
+            alt=""
+            width={470}
+            className="w-full object-cover"
+          />
         </div>
         <div className="grid grid-flow-row gap-3">
           <h5 className="project_title">Featured Project</h5>
@@ -129,7 +139,7 @@ export default function Project() {
       <Link to={"/projects"}>
         <button
           type="button justify-center"
-          className="p-1 contact-me text-white w-3/12 outline outline-offset-2 outline-blue-400 rounded-md"
+          className="p-1 contact-me text-white w-3/12 outline outline-offset-2 outline-blue-400 rounded-md text-center"
         >
           See All Project ...
         </button>

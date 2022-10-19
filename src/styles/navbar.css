@@ -1,7 +1,8 @@
-.navbar {
+nav {
   font-family: "Poppins", sans-serif;
   color: rgb(100, 255, 218);
 }
+
 
 .list li {
   display: inline-block;

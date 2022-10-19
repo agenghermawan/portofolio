@@ -1,10 +1,14 @@
 import React from "react";
 import "../styles/hero.css";
 import { Typewriter } from "react-simple-typewriter";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+// import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className="mx-auto hero container w-10/12 md:w-2/4 justify-center grid mb-16 md:mb-44">
+    <div className="mx-auto hero container w-10/12 md:w-3/4 xl:w-2/4 justify-center grid mb-16 md:mb-44">
       <h5 className="title-name pt-10 md:pt-20 text-2xl md:text-3xl w-auto md:w-2/4  sm:text-sm">
         Hello World! My name is
       </h5>
@@ -28,9 +32,25 @@ export default function Hero() {
         </p>
       </div>
 
-      <button className="outline outline-offset-2 bg-blue-300 bg-transparent mt-6 p-3 rounded-md w-4/12 md:w-1/4">
-        Contact Me
-      </button>
+      <div className="flex flex-col gap-5 mt-6 ">
+        <div className="flex gap-3">
+          <a
+            href={"https://www.linkedin.com/in/ageng-hermawan-424b20197/"}
+            target="new_blank"
+          >
+            <BsLinkedin size={50} style={{ color: "#64ffda" }} />
+          </a>
+          <a href="https://github.com/agenghermawan/" target={"new_blank"}>
+            <BsGithub size={50} style={{ color: "#64ffda" }} />
+          </a>
+          <a
+            href="https://www.instagram.com/agenghermawan/"
+            target={"new_blank"}
+          >
+            <BsInstagram size={50} style={{ color: "#64ffda" }} />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
