@@ -136,7 +136,7 @@ export default function Project() {
         </div>
       </div>
 
-      <Link to={"/projects"}>
+      <Link to={"/portofolio/projects"}>
         <button
           type="button justify-center"
           className="p-1 contact-me text-white w-3/12 outline outline-offset-2 outline-blue-400 rounded-md text-center"
